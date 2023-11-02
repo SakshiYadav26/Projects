@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+    <link rel="stylesheet" href="style.css"/>
+
+</head>
+<body>
+    <div class="container">
+        <div class="applybox">
+           <h1>Job Application <span>(Web)</span></h1>
+           <form action="">
+           <div class="form-container">
+            <div class="form-control">
+                <label for="First Name">First Name: </label><br/>
+                <input type="text" id="First Name" placeholder="Enter your First Name"><br/>
+            </div>
+            <div class="form-control">
+                <label for="Last Name">Last Name: </label><br/>
+                <input type="text" id="Last Name" placeholder="Enter your Last Name"><br/>
+            </div>
+            <div class="form-control">
+                <label for= "email"> Email: </label><br/>
+                <input type="email" id= "email" placeholder="Enter your email"><br/>
+            </div>
+            <div class="form-control">
+                <label for= "Job Role"> Job Role: </label><br/>
+                <select id="job-role">
+                    <option value="">Select Job Role</option>
+                    <option value="frontend">Frontend Developer</option>
+                    <option value="backend">Backend Developer</option>
+                    <option value="full-stack">Full Stack Developer</option>
+                </select>
+                
+            </div>
+            <div class="form-textarea">
+                <label for= "address"> Address: </label><br/>
+               <textarea name="address" id="address" cols="10" rows="5">Enter your Address</textarea>
+            </div>
+            <div class="form-control">
+                <label for= "city"> City: </label><br/>
+                <input type="text" id= "city" placeholder="Enter your city"><br/>
+            </div>
+            <div class="form-control">
+                <label for= "pincode"> Pincode: </label><br/>
+                <input type="number" id= "pincode" placeholder="Enter your Pincode"><br/>
+            </div>
+            <div class="form-control">
+                <label for= "date"> Date: </label><br/>
+                <input  type="date" id= "date"><br/>
+            </div>
+            <div class="form-control">
+                <label for= "upload"> Upload CV: </label><br/>
+                <input  type="file" id= "file"><br/>
+            </div>
+           </div>
+           <div class="button-container">
+            <button type="submit">Apply Now</button>
+           </div>
+        </form>
+        </div>
+    
+    </div>
+    
+</body>
+</html>
