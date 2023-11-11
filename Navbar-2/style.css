@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Poppins:ital@0;1&display=swap');
+*{
+    font-family: "poppins",sans-serif;
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;   
+}
+
+
+.navbar{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    justify-content:flex-start;
+    gap: 50px;
+    box-shadow: 0 10px 45px rgba(0, 0, 0, 0.9);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: rgba(158, 149, 149, 0.4);
+   
+}
+nav{
+    display:flex;
+    align-items:center;
+    gap: 70px;
+}
+a{
+    text-decoration: none;
+    color: rgb(23, 23, 27);
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+a:hover{
+    color: #dd6f5e;
+    
+}
+
+   
+
+
